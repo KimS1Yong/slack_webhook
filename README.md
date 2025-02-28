@@ -1,6 +1,6 @@
 # Java 학습 주의점 Slack 알림 봇
 
-이 프로젝트는 JavaScript 및 Python을 배운 사람이 Java를 처음 배울때 주의해야 할 점을 Slack 채널에 정각마다 자동으로 알림으로 보내는 GitHub Actions 기반의 Slack 봇입니다.
+이 프로젝트는 JavaScript 및 Python을 배운 사람이 Java를 처음 배울때 주의해야 할 점을 Slack 채널에 자정마다 자동으로 알림으로 보내는 GitHub Actions 기반의 Slack 봇입니다.
 
 ## 📌 주요 기능
 - 매시간 정각마다 실행
@@ -49,7 +49,7 @@ java Webhook
 ```
 
 ### 2. GitHub Actions에서 자동 실행
-위의 GitHub Actions가 설정된 경우, **정각마다 자동 실행**되며 Slack으로 메시지를 보냅니다.
+위의 GitHub Actions가 설정된 경우, **자정마다 자동 실행**되며 Slack으로 메시지를 보냅니다.
 
 ## ⚠️ Java 학습 시 주의할 점
 ### Java vs JavaScript vs Python 차이점
